@@ -8,7 +8,6 @@ async function getData() {
 
 const Todos = async () => {
   const data = await getData();
-  console.log(data);
 
   return (
     <div>
